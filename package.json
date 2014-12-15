@@ -1,0 +1,9 @@
+{
+  "name": "angular-promisify",
+  "version": "0.0.1",
+  "description": "A koast app",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "rangle-gulp": "^0.1.2"
+  }
+}
