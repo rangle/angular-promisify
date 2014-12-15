@@ -2,7 +2,17 @@ This angular module aims to provide promisification services for AngularJS. At
 the moment the package provides one service called "denodeify" which is
 equivalent to `Q.denodeify()` but using `$q`.
 
-Example:
+# Installation
+
+You an install `angular-promisify` with Bower:
+
+```bash
+  bower install --save angular-promisify
+```
+
+You should then add `denodeify.js` (in `dist/`) to your scripts.
+
+# Usage Example:
 
 ```js
 angular.module('myApp', ['denodeify'])
